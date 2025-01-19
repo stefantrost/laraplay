@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>About</title>
+    <title>jobs</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -27,8 +27,8 @@
           </div>
           <div class="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
             <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-            <x-navlink href="/" :active="request()->is('/')" type="button">Home</x-navlink>
-            <x-navlink href="/about" :active="request()->is('about')" type="button">About</x-navlink>
+            <x-navlink href="/" :active="request()->is('/')">Home</x-navlink>
+            <x-navlink href="/jobs" :active="request()->is('jobs')">jobs</x-navlink>
             <x-navlink href="/contact" :active="request()->is('contact')">Contact</x-navlink>
           </div>
         </div>
@@ -49,7 +49,7 @@
       <div class="space-y-1 pb-3 pt-2">
       <!-- Current: "border-indigo-500 bg-indigo-50 text-indigo-700", Default: "border-transparent text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800" -->
       <a href="/" class="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700" aria-current="page">Home</a>
-        <a href="/about" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">About</a>
+        <a href="/jobs" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Jobs</a>
         <a href="/contact" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Contact</a>
       </div>
     </div>
